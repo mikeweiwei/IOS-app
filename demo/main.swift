@@ -7,6 +7,15 @@
 //
 
 import Foundation
-
+var a:Int,b:Int,c:Int
+var charactor:Character
+a=100
+b=100
+c=a+b
+for ch in "hello".characters{
+    print(ch)
+}
+print("\(c)")
 print("Hello, World!")
+
 
