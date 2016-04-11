@@ -16,6 +16,7 @@ class ViewController: UIViewController {
     var pendingAdditiveOperator = ""
     var pendingMultiplicativeOperator = ""
     var waitingForOperand = true
+    var isDao:Bool = false
     
     var displayValue: Double {
         set {
@@ -70,6 +71,16 @@ class ViewController: UIViewController {
         
     }
     
+    @IBOutlet weak var dot: UIButton!
+    
+    @IBAction func dotc(sender: UIButton) {
+        if !isDao {
+            isDao = true
+            display.text = display.text! + sender.currentTitle!
+        }
+        
+    }
+    
     @IBAction func digitClicked(sender: UIButton) {
         let digitValue = Int(sender.currentTitle!)
         if Int(display.text!) == 0 && digitValue == 0 {
@@ -107,15 +118,18 @@ class ViewController: UIViewController {
         
         displayValue = 0
         waitingForOperand = true
+        isDao = false
     }
     
     @IBAction func clearAll() {
         sumSoFar = 0.0
         factorSoFar = 0.0
+        sumInMemory = 0.0
         pendingAdditiveOperator = ""
         pendingMultiplicativeOperator = ""
         displayValue = 0.0
         waitingForOperand = true
+        isDao = false
     }
     
     @IBAction func clearMemory() {
@@ -125,11 +139,14 @@ class ViewController: UIViewController {
     @IBAction func readMemory() {
         displayValue = sumInMemory
         waitingForOperand = true
+        waitingForOperand = false
+
     }
     
     @IBAction func setMemory() {
         equalClicked()
         sumInMemory = displayValue
+        waitingForOperand = false
     }
     
     @IBAction func addToMemory() {
@@ -152,6 +169,7 @@ class ViewController: UIViewController {
         
         pendingMultiplicativeOperator = clickedOperator
         waitingForOperand = true
+        isDao = false
 
     }
     
@@ -180,6 +198,7 @@ class ViewController: UIViewController {
         
         pendingAdditiveOperator = clickedOperator
         waitingForOperand = true
+        isDao = false
     }
     
     @IBAction func unaryOperatorClicked(sender: UIButton) {

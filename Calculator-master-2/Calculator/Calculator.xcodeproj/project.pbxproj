@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18BBF4391CBB9E6D0071E831 /* 01.ico in Resources */ = {isa = PBXBuildFile; fileRef = 18BBF4381CBB9E6D0071E831 /* 01.ico */; };
 		9D4039891AEB91E30086F2F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4039881AEB91E30086F2F5 /* AppDelegate.swift */; };
 		9D40398B1AEB91E30086F2F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D40398A1AEB91E30086F2F5 /* ViewController.swift */; };
 		9D40398E1AEB91E30086F2F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D40398C1AEB91E30086F2F5 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18BBF4381CBB9E6D0071E831 /* 01.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; name = 01.ico; path = ../../../../01.ico; sourceTree = "<group>"; };
 		9D4039831AEB91E30086F2F5 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D4039871AEB91E30086F2F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D4039881AEB91E30086F2F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				9D4039871AEB91E30086F2F5 /* Info.plist */,
+				18BBF4381CBB9E6D0071E831 /* 01.ico */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 				TargetAttributes = {
 					9D4039821AEB91E30086F2F5 = {
 						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = Y6SA3XMS6B;
 					};
 					9D4039971AEB91E30086F2F5 = {
 						CreatedOnToolsVersion = 6.3;
@@ -194,6 +198,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18BBF4391CBB9E6D0071E831 /* 01.ico in Resources */,
 				9D40398E1AEB91E30086F2F5 /* Main.storyboard in Resources */,
 				9D4039931AEB91E30086F2F5 /* LaunchScreen.xib in Resources */,
 				9D4039901AEB91E30086F2F5 /* Images.xcassets in Resources */,
@@ -342,11 +347,13 @@
 		9D4039A31AEB91E30086F2F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Calculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "tjw.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = ggggywww;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -354,11 +361,13 @@
 		9D4039A41AEB91E30086F2F5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Calculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "tjw.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = ggggywww;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
