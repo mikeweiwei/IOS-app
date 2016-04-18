@@ -138,7 +138,7 @@ class ViewController: UIViewController {
     
     @IBAction func readMemory() {
         displayValue = sumInMemory
-        waitingForOperand = true
+        //waitingForOperand = true
         waitingForOperand = false
 
     }
@@ -152,6 +152,7 @@ class ViewController: UIViewController {
     @IBAction func addToMemory() {
         equalClicked()
         sumInMemory += displayValue
+        waitingForOperand = false
     }
     
     @IBAction func multiplicativeOperatorClicked(sender: UIButton) {
@@ -168,7 +169,7 @@ class ViewController: UIViewController {
         }
         
         pendingMultiplicativeOperator = clickedOperator
-        waitingForOperand = true
+        waitingForOperand = false
         isDao = false
 
     }
@@ -197,7 +198,7 @@ class ViewController: UIViewController {
         }
         
         pendingAdditiveOperator = clickedOperator
-        waitingForOperand = true
+        waitingForOperand = false
         isDao = false
     }
     
@@ -221,7 +222,7 @@ class ViewController: UIViewController {
             result = 1.0 / displayValue
         }
         displayValue = result
-        waitingForOperand = true
+        waitingForOperand = false
     }
     
     @IBAction func equalClicked() {
@@ -248,7 +249,7 @@ class ViewController: UIViewController {
         
         displayValue = sumSoFar
         sumSoFar = 0.0
-        waitingForOperand = true
+        waitingForOperand = false
     }
 }
 
