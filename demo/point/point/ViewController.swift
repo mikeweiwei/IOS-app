@@ -7,12 +7,19 @@
 //
 
 import UIKit
+//import Font_Awesome_Swift
 
 class ViewController: UIViewController {
+    var swiftTimer = NSTimer()
+    var swiftCounter = 0.00
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+       // display.text = String(swiftCounter)
+        
+        //play.setFAIcon(FAType.FAPlay, iconSize: 35, forState: .Normal)
+        //pause.setFAIcon(FAType.FAPause, iconSize: 35, forState: .Normal)
     }
 
     override func didReceiveMemoryWarning() {
@@ -53,4 +60,6 @@ class ViewController: UIViewController {
         l1.text = "0"
         l2.text = "0"
     }
+    
+   
 }
