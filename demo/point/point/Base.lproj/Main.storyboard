@@ -32,61 +32,49 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3TF-tG-WRN">
-                                <rect key="frame" x="17" y="253" width="108" height="30"/>
-                                <color key="backgroundColor" red="0.66157890309061762" green="1" blue="0.54035450594606282" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="1分">
-                                    <color key="titleColor" red="0.0056443827981563057" green="0.01448933461623142" blue="0.057346204188481686" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
+                                <rect key="frame" x="41" y="179" width="70" height="30"/>
+                                <color key="backgroundColor" red="0.6615789031" green="1" blue="0.5403545059" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="1分"/>
                                 <connections>
                                     <action selector="b1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DRf-2z-fdb"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OFx-s8-Zpx">
-                                <rect key="frame" x="189" y="253" width="108" height="30"/>
-                                <color key="backgroundColor" red="0.66157890309061762" green="1" blue="0.54035450594606282" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="1分">
-                                    <color key="titleColor" red="0.0056443827981563057" green="0.01448933461623142" blue="0.057346204188481686" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
+                                <rect key="frame" x="213" y="179" width="70" height="30"/>
+                                <color key="backgroundColor" red="0.6615789031" green="1" blue="0.5403545059" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="1分"/>
                                 <connections>
                                     <action selector="a1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="emN-Nx-sGR"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X95-Fc-QWK">
-                                <rect key="frame" x="17" y="299" width="108" height="30"/>
-                                <color key="backgroundColor" red="0.66157890309061762" green="1" blue="0.54035450594606282" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="2分">
-                                    <color key="titleColor" red="0.0056443827981563057" green="0.01448933461623142" blue="0.057346204188481686" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
+                                <rect key="frame" x="41" y="229" width="70" height="30"/>
+                                <color key="backgroundColor" red="0.6615789031" green="1" blue="0.5403545059" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="2分"/>
                                 <connections>
                                     <action selector="b2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pYA-lO-ltq"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GSx-bZ-K3P">
-                                <rect key="frame" x="189" y="299" width="108" height="30"/>
-                                <color key="backgroundColor" red="0.66157890309061762" green="1" blue="0.54035450594606282" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="2分">
-                                    <color key="titleColor" red="0.0056443827981563057" green="0.01448933461623142" blue="0.057346204188481686" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
+                                <rect key="frame" x="213" y="229" width="70" height="30"/>
+                                <color key="backgroundColor" red="0.6615789031" green="1" blue="0.5403545059" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="2分"/>
                                 <connections>
                                     <action selector="a2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3xS-vS-UbS"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oGT-hR-v40">
-                                <rect key="frame" x="17" y="345" width="108" height="30"/>
-                                <color key="backgroundColor" red="0.66157890309061762" green="1" blue="0.54035450594606282" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="3分">
-                                    <color key="titleColor" red="0.0056443827981563057" green="0.01448933461623142" blue="0.057346204188481686" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
+                                <rect key="frame" x="41" y="277" width="70" height="30"/>
+                                <color key="backgroundColor" red="0.6615789031" green="1" blue="0.5403545059" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="3分"/>
                                 <connections>
                                     <action selector="b3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cEx-G7-mDZ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a1T-Yt-tgs">
-                                <rect key="frame" x="189" y="345" width="108" height="30"/>
-                                <color key="backgroundColor" red="0.66157890309061762" green="1" blue="0.54035450594606282" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="3分">
-                                    <color key="titleColor" red="0.0056443827981563057" green="0.01448933461623142" blue="0.057346204188481686" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
+                                <rect key="frame" x="213" y="277" width="70" height="30"/>
+                                <color key="backgroundColor" red="0.6615789031" green="1" blue="0.5403545059" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="3分"/>
                                 <connections>
                                     <action selector="a3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="icY-2f-ggO"/>
                                 </connections>
@@ -110,69 +98,42 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="abT-mq-rLO">
-                                <rect key="frame" x="126" y="391" width="69" height="62"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <rect key="frame" x="126" y="339" width="69" height="62"/>
+                                <color key="backgroundColor" red="0.6615789031" green="1" blue="0.5403545059" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="结束"/>
                                 <connections>
                                     <action selector="end:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yk4-UB-VM0"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rkF-0E-RMj">
-                                <rect key="frame" x="28" y="115" width="97" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pGC-a1-fZe">
-                                <rect key="frame" x="200" y="115" width="97" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HIC-H5-Pl8">
-                                <rect key="frame" x="37" y="486" width="69" height="62"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jqn-Mh-b0C">
+                                <rect key="frame" x="65" y="423" width="46" height="30"/>
                                 <state key="normal" title="保存"/>
+                                <connections>
+                                    <action selector="saveClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="53W-sd-hfe"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aRU-qr-7nF">
-                                <rect key="frame" x="209" y="491" width="69" height="62"/>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DCo-vC-F6h">
+                                <rect key="frame" x="28" y="124" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MEE-kW-VAS">
+                                <rect key="frame" x="200" y="124" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FnV-v7-y3W">
+                                <rect key="frame" x="213" y="423" width="46" height="30"/>
                                 <state key="normal" title="查看"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TMl-Ia-8gu">
-                                <rect key="frame" x="189" y="215" width="46" height="30"/>
-                                <state key="normal" title="pause"/>
-                                <connections>
-                                    <action selector="pauseb:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Zph-QK-crM"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="71c-CF-bvI">
-                                <rect key="frame" x="83" y="215" width="46" height="30"/>
-                                <state key="normal" title="reset"/>
-                                <connections>
-                                    <action selector="retsetb:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zkA-QA-GuL"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Yb-As-lOs">
-                                <rect key="frame" x="114" y="153" width="92" height="45"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IbR-xT-feW">
-                                <rect key="frame" x="135" y="215" width="46" height="30"/>
-                                <state key="normal" title="play"/>
-                                <connections>
-                                    <action selector="playb:" destination="BYZ-38-t0r" eventType="touchUpInside" id="H58-l4-0Gu"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="display" destination="IbR-xT-feW" id="CMF-wN-uhb"/>
                         <outlet property="l1" destination="I7Z-6u-IFC" id="EGr-SC-CiS"/>
                         <outlet property="l2" destination="Cm8-rp-K5U" id="Oeg-gq-tgp"/>
-                        <outlet property="pause" destination="TMl-Ia-8gu" id="L0l-aG-HRM"/>
-                        <outlet property="play" destination="IbR-xT-feW" id="chk-74-Y1d"/>
+                        <outlet property="txtMobile" destination="Cm8-rp-K5U" id="jKc-Mr-PqC"/>
+                        <outlet property="txtUname" destination="I7Z-6u-IFC" id="w42-8g-geG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
