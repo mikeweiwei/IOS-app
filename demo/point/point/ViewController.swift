@@ -22,7 +22,7 @@ class ViewController: UIViewController {
         //如果表还不存在则创建表（其中uid为自增主键）
         db.execute("create table if not exists t_user(uid integer primary key,uname varchar(20),mobile varchar(20))")
         //如果有数据则加载
-        initUser()
+        
     }
     func initUser() {
         let data = db.query("select * from t_user")
@@ -82,5 +82,9 @@ class ViewController: UIViewController {
         //通过封装的方法执行sql
         let result = db.execute(sql)
         print(result)
+    }
+    
+    @IBAction func sgow2(sender: AnyObject) {
+        initUser()
     }
 }
