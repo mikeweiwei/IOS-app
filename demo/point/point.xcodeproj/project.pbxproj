@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1808515F1CE0B38C00575194 /* history.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1808515E1CE0B38C00575194 /* history.swift */; };
 		185884B11CC509E5004EF9AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185884B01CC509E5004EF9AC /* AppDelegate.swift */; };
 		185884B31CC509E5004EF9AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185884B21CC509E5004EF9AC /* ViewController.swift */; };
 		185884B61CC509E5004EF9AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185884B41CC509E5004EF9AC /* Main.storyboard */; };
@@ -19,6 +20,8 @@
 		18B2BA3F1CDAEFD4005F13CC /* SQLTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B2BA3C1CDAEFD4005F13CC /* SQLTable.swift */; };
 		18B2BA401CDAEFD4005F13CC /* String-Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B2BA3D1CDAEFD4005F13CC /* String-Extras.swift */; };
 		18B2BA421CDAF122005F13CC /* data.db in Resources */ = {isa = PBXBuildFile; fileRef = 18B2BA411CDAF122005F13CC /* data.db */; };
+		18DF21351CE422B3007E85BD /* ss.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18DF21341CE422B3007E85BD /* ss.jpg */; };
+		18DF21371CE42D6C007E85BD /* ss1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18DF21361CE42D6C007E85BD /* ss1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1808515E1CE0B38C00575194 /* history.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = history.swift; sourceTree = "<group>"; };
 		185884AD1CC509E5004EF9AC /* point.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = point.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		185884B01CC509E5004EF9AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		185884B21CC509E5004EF9AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +62,8 @@
 		18B2BA3C1CDAEFD4005F13CC /* SQLTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLTable.swift; sourceTree = "<group>"; };
 		18B2BA3D1CDAEFD4005F13CC /* String-Extras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String-Extras.swift"; sourceTree = "<group>"; };
 		18B2BA411CDAF122005F13CC /* data.db */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data.db; sourceTree = "<group>"; };
+		18DF21341CE422B3007E85BD /* ss.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ss.jpg; sourceTree = "<group>"; };
+		18DF21361CE42D6C007E85BD /* ss1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ss1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,12 +119,15 @@
 			isa = PBXGroup;
 			children = (
 				185884B01CC509E5004EF9AC /* AppDelegate.swift */,
+				18DF21341CE422B3007E85BD /* ss.jpg */,
+				18DF21361CE42D6C007E85BD /* ss1.jpg */,
 				185884B21CC509E5004EF9AC /* ViewController.swift */,
 				185884B41CC509E5004EF9AC /* Main.storyboard */,
 				185884B71CC509E5004EF9AC /* Assets.xcassets */,
 				185884B91CC509E5004EF9AC /* LaunchScreen.storyboard */,
 				185884BC1CC509E5004EF9AC /* Info.plist */,
 				18B2BA381CDAEE79005F13CC /* Bridging-Header.h */,
+				1808515E1CE0B38C00575194 /* history.swift */,
 			);
 			path = point;
 			sourceTree = "<group>";
@@ -256,8 +265,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18DF21351CE422B3007E85BD /* ss.jpg in Resources */,
 				185884BB1CC509E5004EF9AC /* LaunchScreen.storyboard in Resources */,
 				18B2BA421CDAF122005F13CC /* data.db in Resources */,
+				18DF21371CE42D6C007E85BD /* ss1.jpg in Resources */,
 				185884B81CC509E5004EF9AC /* Assets.xcassets in Resources */,
 				185884B61CC509E5004EF9AC /* Main.storyboard in Resources */,
 			);
@@ -288,6 +299,7 @@
 				18B2BA3E1CDAEFD4005F13CC /* SQLiteDB.swift in Sources */,
 				18B2BA3F1CDAEFD4005F13CC /* SQLTable.swift in Sources */,
 				185884B31CC509E5004EF9AC /* ViewController.swift in Sources */,
+				1808515F1CE0B38C00575194 /* history.swift in Sources */,
 				185884B11CC509E5004EF9AC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

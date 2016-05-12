@@ -11,7 +11,10 @@ import UIKit
 class ViewController: UIViewController {
     
     var db:SQLiteDB!
+    
 
+    @IBOutlet weak var twoname: UITextField!
+    @IBOutlet weak var onename: UITextField!
     @IBOutlet weak var txtUname: UILabel!
     @IBOutlet weak var txtMobile: UILabel!
     
@@ -21,6 +24,7 @@ class ViewController: UIViewController {
         db = SQLiteDB.sharedInstance()
         //如果表还不存在则创建表（其中uid为自增主键）
         db.execute("create table if not exists t_user(uid integer primary key,uname varchar(20),mobile varchar(20))")
+        db.execute("create table if not exists t_duim(uid integer primary key,uname varchar(20),uname2 varchar(20))")
         //如果有数据则加载
         
     }
@@ -82,9 +86,12 @@ class ViewController: UIViewController {
         //通过封装的方法执行sql
         let result = db.execute(sql)
         print(result)
+       
     }
     
     @IBAction func sgow2(sender: AnyObject) {
         initUser()
     }
+    
+    
 }
