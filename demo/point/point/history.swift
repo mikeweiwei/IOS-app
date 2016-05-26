@@ -27,6 +27,8 @@ class history: UIViewController {
     
     @IBOutlet weak var text: UITextField!
     @IBOutlet weak var textt: UITextView!
+    
+    
     @IBAction func shows(sender: AnyObject) {
         let data = db.query("select * from t_user")
         //var count = Int(data.count)
@@ -36,16 +38,18 @@ class history: UIViewController {
         for var a = 1;a < data.count;a++
         {
             let user = data[data.count - a]
-            wo += String(a)+"     "+(user["nameon"] as? String)!+(user["mobile"] as? String)!+dian+(user["nametw"] as? String)!+(user["uname"] as? String)!
+            wo += String(a)+"       "+(user["nameon"] as? String)!+(user["mobile"] as? String)!+dian+(user["uname"] as? String)!+(user["nametw"] as? String)!
             wo+="\n"
             text.text = "Totle:"+String(a)
         }
         textt.text = wo
-        /*if data.count > 0 {
+             /*if data.count > 0 {
         //获取最后一行数据显示
         let user = data[data.count - 2]
         textt.text = (user["mobile"] as? String)! + (user["uname"] as? String)!
         }*/
+        
+
         
     }
 }

@@ -12,6 +12,8 @@ class ViewController: UIViewController {
     
     var db:SQLiteDB!
     
+    var isBegin:Bool = false
+    
     var times:NSTimer!
     @IBOutlet weak var twoname: UITextField!
     @IBOutlet weak var onename: UITextField!
@@ -104,12 +106,21 @@ class ViewController: UIViewController {
         initUser()
     }
     
+    @IBOutlet weak var pause: UIButton!
     @IBAction func begain(sender: AnyObject) {
-        times = NSTimer.scheduledTimerWithTimeInterval(1,
+        if !isBegin{
+            times = NSTimer.scheduledTimerWithTimeInterval(1,
             target:self,selector:Selector("tickDown"),
             userInfo:nil,repeats:true)
-        
-    }
+            pause.setTitle("暂停", forState: UIControlState.Normal)
+            isBegin = true
+        }else{
+            times.invalidate()
+            isBegin = false
+            pause.setTitle("开始", forState: UIControlState.Normal)
+
+        }
+       }
     func tickDown()
     {
         _tame-=1
@@ -139,4 +150,7 @@ class ViewController: UIViewController {
         }
     
     }
+    
+    
+
 }

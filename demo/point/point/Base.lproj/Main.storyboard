@@ -121,7 +121,7 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="abT-mq-rLO">
                                 <rect key="frame" x="126" y="362" width="69" height="62"/>
-                                <color key="backgroundColor" red="0.6615789031" green="1" blue="0.5403545059" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.50542150620041881" green="1" blue="0.47445559625993894" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="结束"/>
                                 <connections>
                                     <action selector="end:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yk4-UB-VM0"/>
@@ -139,13 +139,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9KY-OV-O32">
-                                <rect key="frame" x="143" y="221" width="46" height="30"/>
-                                <state key="normal" title="开始"/>
-                                <connections>
-                                    <action selector="begain:" destination="BYZ-38-t0r" eventType="touchUpInside" id="L82-54-Fk7"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="第一节" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ooF-PW-KnQ">
                                 <rect key="frame" x="139" y="143" width="52" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -158,6 +151,13 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9KY-OV-O32">
+                                <rect key="frame" x="142" y="221" width="46" height="30"/>
+                                <state key="normal" title="开始"/>
+                                <connections>
+                                    <action selector="begain:" destination="BYZ-38-t0r" eventType="touchUpInside" id="L82-54-Fk7"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -165,6 +165,7 @@
                         <outlet property="l1" destination="I7Z-6u-IFC" id="EGr-SC-CiS"/>
                         <outlet property="l2" destination="Cm8-rp-K5U" id="Oeg-gq-tgp"/>
                         <outlet property="onename" destination="DCo-vC-F6h" id="0ni-Uq-woF"/>
+                        <outlet property="pause" destination="9KY-OV-O32" id="FBm-aC-sLw"/>
                         <outlet property="time" destination="lWa-f0-UAY" id="11t-fi-epc"/>
                         <outlet property="twoname" destination="MEE-kW-VAS" id="v6v-Ry-Zdp"/>
                         <outlet property="txtMobile" destination="Cm8-rp-K5U" id="jKc-Mr-PqC"/>
@@ -195,7 +196,7 @@
                                 <rect key="frame" x="192" y="342" width="108" height="30"/>
                                 <state key="normal" title="查看历史记录"/>
                                 <connections>
-                                    <segue destination="Pwm-5S-VtW" kind="modal" id="5PH-9c-n3T"/>
+                                    <segue destination="z5y-4s-N2h" kind="modal" id="tWC-4j-4aq"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i2D-st-Aay">
@@ -220,40 +221,40 @@
             <point key="canvasLocation" x="153" y="469"/>
         </scene>
         <!--History-->
-        <scene sceneID="MPm-bS-OAy">
+        <scene sceneID="3pa-kC-soQ">
             <objects>
-                <viewController id="Pwm-5S-VtW" customClass="history" customModule="point" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="z5y-4s-N2h" customClass="history" customModule="point" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="3An-Gl-xYL"/>
-                        <viewControllerLayoutGuide type="bottom" id="fCx-YT-ce2"/>
+                        <viewControllerLayoutGuide type="top" id="2tQ-82-xCV"/>
+                        <viewControllerLayoutGuide type="bottom" id="pOa-RR-XWw"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="dLr-r3-pa8">
+                    <view key="view" contentMode="scaleToFill" id="sqx-xF-VAY">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ss.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="yOb-0V-bXe">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ss.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="vuC-6S-Wat">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PCj-rA-X7H">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XvK-zP-DuN">
                                 <rect key="frame" x="244" y="41" width="46" height="30"/>
                                 <state key="normal" title="返回"/>
                                 <connections>
-                                    <segue destination="yQW-wo-GcN" kind="modal" id="yla-Hd-yNR"/>
+                                    <segue destination="yQW-wo-GcN" kind="modal" id="KDt-ka-6JA"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rwf-8s-2gE">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dYh-44-Eed">
                                 <rect key="frame" x="33" y="41" width="46" height="30"/>
                                 <state key="normal" title="查看"/>
                                 <connections>
-                                    <action selector="shows:" destination="Pwm-5S-VtW" eventType="touchUpInside" id="aL0-EU-tBH"/>
+                                    <action selector="shows:" destination="z5y-4s-N2h" eventType="touchUpInside" id="Aea-Oc-SSr"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Qej-Zv-oQH">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qty-ch-0Ww">
                                 <rect key="frame" x="24" y="79" width="276" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nZg-kZ-iGI">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="peV-5H-0aM">
                                 <rect key="frame" x="24" y="117" width="257" height="336"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -263,19 +264,19 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="text" destination="Qej-Zv-oQH" id="nWH-Uu-I2Y"/>
-                        <outlet property="textt" destination="nZg-kZ-iGI" id="aNh-6n-uQ7"/>
+                        <outlet property="text" destination="qty-ch-0Ww" id="3fH-SE-Kdo"/>
+                        <outlet property="textt" destination="peV-5H-0aM" id="xNb-oJ-LId"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="OKO-f9-bkj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7f0-ed-w5K" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="351" y="1114"/>
+            <point key="canvasLocation" x="398" y="1133"/>
         </scene>
     </scenes>
     <resources>
         <image name="ss.jpg" width="514" height="1001"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="yla-Hd-yNR"/>
+        <segue reference="oWq-TG-Dht"/>
     </inferredMetricsTieBreakers>
 </document>
