@@ -169,7 +169,7 @@ class ViewController: UIViewController {
         }
         
         pendingMultiplicativeOperator = clickedOperator
-        waitingForOperand = false
+        waitingForOperand = true
         isDao = false
 
     }
@@ -198,8 +198,8 @@ class ViewController: UIViewController {
         }
         
         pendingAdditiveOperator = clickedOperator
-        waitingForOperand = false
-        isDao = false
+        waitingForOperand = true
+
     }
     
     @IBAction func unaryOperatorClicked(sender: UIButton) {
